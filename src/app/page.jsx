@@ -1,9 +1,10 @@
+import HeroBanner from "@/components/HeroBanner";
 import Header from "../components/Header";
 
 export default function Home() {
   return (
-    <main className="h-[200vh]">
-     <p className="text-red-800 ">'use client'</p>
+    <main className="h-[60vh]">
+      <HeroBanner/>
     </main>
   )
 }
